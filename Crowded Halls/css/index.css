@@ -1,0 +1,121 @@
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url(../fonts/Wisdom Script AJ.otf);
+}
+
+body{
+	background-image: url(../img/black_texture_2.jpg);
+	color: white;
+}
+
+#logo{
+	background-image: url(../img/CH_Logo_White.png);
+	width: 260px;
+	height: 130px;
+	margin-top: 40px;
+	margin-left: 55px;	
+}
+
+#nav{
+	font-family: 'Wisdom Script';
+	list-style: none;
+	padding: 0px;
+	margin-left: 90px;
+	margin-top: 50px;
+	font-size: 130%;
+}
+
+#tourdates{
+	background-image: url(../img/TourDates.png);
+	width: 121px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+#tourdates:hover{
+	background-image: url(../img/TourDatesHover.png);
+	cursor: pointer;
+}
+
+#albums{
+	background-image: url(../img/Albums.png);
+	width: 85px;
+	height: 35px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+
+#albums:hover{
+	background-image: url(../img/AlbumsHover.png);
+	cursor: pointer;
+}
+
+#gallery{
+	background-image: url(../img/Gallery.png);
+	width: 75px;
+	height: 35px;
+	margin-left: 18px;
+	margin-bottom: 10px;
+}
+
+#gallery:hover{
+	background-image: url(../img/GalleryHover.png);
+	cursor: pointer;
+}
+
+#news{
+	background-image: url(../img/News.png);
+	width: 65px;
+	height: 35px;
+	margin-left: 18px;
+	margin-bottom: 10px;
+}
+
+#news:hover{
+	background-image: url(../img/NewsHover.png);
+	cursor: pointer;
+}
+
+#contact{
+	background-image: url(../img/Contact.png);
+	width: 76px;
+	height: 37px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+
+#contact:hover{
+	background-image: url(../img/ContactHover.png);
+	cursor: pointer;
+}
+
+#social{
+	float:right;
+	margin-right: 100px; 
+	margin-top: 150px;
+}
+
+#facebook{
+	float: left;
+	background-image: url(../img/facebook.png);
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+#facebook:hover{
+	background-image: url(../img/facebookHover.png);
+	cursor: pointer;
+}
+
+#twitter{
+	float: left;
+	background-image: url(../img/twitter.png);
+	width: 20px;
+	height: 20px;
+}
+
+#twitter:hover{
+	background-image: url(../img/twitterHover.png);
+	cursor: pointer;
+}
